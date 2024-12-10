@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: cluster-k8s-playrole-location
+  description: Location to import all cluster-k8s-playrole catalog components
+spec:
+  targets:
+    - ./.platform/*.yaml
